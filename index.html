@@ -1,0 +1,210 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- font awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		<title>Komunity</title>
+		<style>
+			header{
+				background: url(/img/hero.jpg);
+				background-size: cover;
+				background-position: center;
+				height: 100vh;
+
+			}
+				@media screen and (max-width: 670px) {
+					header{
+						min-height: 500px;
+					}
+				}
+			
+
+		</style>
+	</head>
+	<body>
+
+
+		<!-- navbar -->
+		<header>
+			<nav class="nav-wrapper teal lighten-1">
+				<div class="container">
+					<a href="#" class="brand-logo">Logo</a>
+					<a href="#" class="sidenav-trigger" data-target="mobile-menu">
+						<i class="material-icons">menu</i>
+					</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#goals">Our goals</a></li>
+						<li><a href="channel.html">Channels</a></li>
+						<li><a href="#modal-login" class="modal-trigger">Tutorials</a></li>
+						
+					</ul>
+					<ul class="sidenav grey lighten-2" id="mobile-menu">
+						<li><a href="#goals">Our goals</a></li>
+						<li><a href="#channel">Channels</a></li>
+						<li><a href="#modal-login" class="modal-trigger">Tutorials</a></li>
+						
+					</ul>
+					<div id="modal-login" class="modal">
+							<div class="modal-content text-teal">
+								<div class="row">
+									<div class="col s12">
+										<ul class="tabs">
+											<li class="tab col s6">
+												<a href="#register">Register</a>
+											</li>
+											<li class="tab col s6">
+												<a href="#login">Login</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12" id="login">
+										<div class="row">
+												<div class="input-field col s6">
+													<input id="email" type="text" class="validate">
+													<label for="email">Email</label>
+												</div>
+										</div>
+										<div class="row">
+											<div class="input-field col s6">
+												<input id="password" type="password" class="validate">
+												<label for="password">Password</label>
+											</div>
+										</div>
+										<input type="submit" class="btn" value="Login" onclick="login()">
+									</div>
+								</div>
+								<div class="row">
+										<div class="col s12" id="register">
+											<div class="row">
+													<div class="input-field col s6">
+														<input id="_email" type="text" class="validate">
+														<label for="_email">Email</label>
+													</div>
+											</div>
+											<div class="row">
+													<div class="input-field col s6">
+														<input id="_password" type="password" class="validate">
+														<label for="_password">Password</label>
+													</div>
+											</div>
+											<input type="submit" class="btn" value="Register" onclick="register()">
+										</div>
+									</div>
+								
+							</div>
+						
+					</div>
+				</div>
+
+			</nav>
+		</header>
+		
+		
+		<!-- photo / grid -->
+		<section class="section container" id="what-we-do">
+			<div class="row">
+				<div class="col s12 l4">
+					<img src="img/flowers.jpg" alt="flowers" class="responsive-img materialboxed">
+				</div>
+				<div class="col s12 l6 offset-l1">
+					<h2 class="indigo-text text-darken-4">Flowers</h2>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi omnis dignissimos fuga blanditiis rem accusamus eaque molestiae obcaecati totam animi, soluta vel, hic dolore doloribus repellat fugiat amet unde! Eius.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 l4 push-l7">
+					<img src="img/mountain.jpg" alt="mountain" class="responsive-img materialboxed">
+				</div>
+				<div class="col s12 l6 pull-l4 right-align">
+					<h2 class="indigo-text text-darken-4">Mountain</h2>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi omnis dignissimos fuga blanditiis rem accusamus eaque molestiae obcaecati totam animi, soluta vel, hic dolore doloribus repellat fugiat amet unde! Eius.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 l4">
+					<img src="img/city.jpg" alt="city" class="responsive-img materialboxed">
+				</div>
+				<div class="col s12 l6 offset-l1">
+					<h2 class="indigo-text text-darken-4">City</h2>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi omnis dignissimos fuga blanditiis rem accusamus eaque molestiae obcaecati totam animi, soluta vel, hic dolore doloribus repellat fugiat amet unde! Eius.</p>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- parallax -->
+		<div class="parallax-container">
+			<div class="parallax">
+				<img src="img/stars.jpg" alt="stars" class="responsive-img">
+			</div>
+
+		</div>
+		<div class="container">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatem adipisci eaque deserunt odit in nemo atque! Ab minus eligendi laboriosam, optio rem numquam harum commodi repellendus, animi, similique quas.</p>
+		</div>
+		<footer class="page-footer teal lighten-1">
+                <div class="container">
+                    <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                    © 2019 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                    </div>
+                </div>
+            </footer>
+        
+		<!-- services / tabs -->
+
+		<!-- parallax -->
+
+		<!-- tutorials form -->
+
+		<!-- footer -->
+
+		<!-- Compiled and minified JavaScript -->
+		<script src="main.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+		<script>
+	
+
+				
+				$(document).ready(function(){
+
+					// Sidenav initialization
+                      $('.sidenav').sidenav();
+
+					//image zoom
+					$('.materialboxed').materialbox();
+                    $('.modal').modal();
+					$('.parallax').parallax();
+					$('.tabs').tabs();
+					
+                });
+			
+		</script>
+	</body>
+</html>

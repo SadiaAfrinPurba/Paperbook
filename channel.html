@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="main.css">
+
+  <title>Kommunity</title>
+</head>
+<body>
+    <!-- <div class="container"> -->
+      <header>
+
+      
+        <nav>
+            <div class="nav-wrapper row teal lighten-1">
+                <div class="col s12 m8 l8">
+                     <a href="#" class="brand-logo">Logo</a>
+                 </div>
+                 <div class="col s12 m4 l4">
+                    <form>
+                        <div class="input-field">
+                            <input id="search" type="search" required>
+                            <label class="label-icon" for="search">
+                                <i class="material-icons">search</i>
+                            </label>
+                            <i class="material-icons">close</i>
+            
+                        </div class="input-field">
+                    </form>
+
+                 </div>
+                    
+            </div>
+        </nav>
+    </header>
+        <div class="row">
+                <div class="col s12 m4 l4 teal lighten-2">
+                    <div class="section">
+                        <ul class="collection with-header">
+                            <li class="collection-header"><h4>Channels</h4></li>
+                            <li class="collection-item">Channel name 1</li>
+                            <li class="collection-item">Channel name 2</li>
+                            <li class="collection-item">Channel name 3</li>
+                            <li class="collection-item">Channel name 4</li>
+                            <li class="collection-item">
+                                <input id="input_text" type="text" data-length="10">
+                                <label for="input_text">Add a new channel</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section">
+                        <ul class="collection with-header">
+                            <li class="collection-header"><h4>Users</h4></li>
+                            <li class="collection-item">User 1</li>
+                            <li class="collection-item">User 2</li>
+                            <li class="collection-item">User 3</li>
+                            <li class="collection-item">User 4</li>
+                         </ul>
+                    </div>
+        
+            </div>
+                <div class="col s12 m8 l8 teal lighten-5">
+                        <div class="section">
+                            <ul class="collection with-header">
+                                <li class="collection-header"><h4>Channel Name</h4></li>
+                               <li class="collection-item">
+                                    <div class="incoming_msg">
+                                            <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+                                            <div class="received_msg">
+                                              <div class="received_withd_msg">
+                                                <p>Hello, I think life is beautiful</p>
+                                                <span class="time_date"> 11:01 AM    |    April 4</span></div>
+                                            </div>
+                                          </div>
+                                          <div class="outgoing_msg">
+                                            <div class="sent_msg">
+                                              <p>Yes, I agree</p>
+                                              <span class="time_date"> 11:01 AM    |    April 4</span> </div>
+                                    </div>
+                               </li>
+                               
+                                <div class="input-field col s12">
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">send a message</label>
+                                 </div>
+                            </ul>
+                        </div>
+        
+                </div>
+            </div>
+            <footer class="page-footer teal lighten-1">
+                <div class="container">
+                    <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                    © 2019 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                    </div>
+                </div>
+            </footer>
+                      
+          
+            
+        
+    <!-- </div> -->
+
+  <!-- navbar -->
+ 
+  <!-- photo / grid -->
+
+  <!-- parallax -->
+
+  <!-- services / tabs -->
+
+  <!-- parallax -->
+
+  <!-- contact form -->
+
+  <!-- footer -->
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('input#input_text').characterCounter();
+        // $('#textarea1').val('New Text');
+    });
+  </script>
+</body>
+</html>
